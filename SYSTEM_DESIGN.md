@@ -22,7 +22,7 @@ It provides a secure and reliable way to store and access files from anywhere, o
 
 
 ## Core Entities
-- File (raw bytes)
+- File (raw bytes) 
     - id
     - raw bytes
 - File Metadata
@@ -55,7 +55,9 @@ Get /changes?since={timestamp} =>
 ```
 
 ## High Level Design
-
+```markdown
+![diagram](cloud-file-storage-HLD-2025-08-12-1440.svg)
+```
 
 
 ## Deep Dives
